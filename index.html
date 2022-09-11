@@ -1,1 +1,54 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css" />
+    <title>Assignment</title>
+</head>
+<body>
+    <section class="loginSection hidden">
+        <form id="login-form" class="formStyle">
+            <input type="text" id="userId" maxlength="15" placeholder="user ID" required />
+            <input type="password" id="password"  placeholder="password" required />
+    
+            <input type="submit" class="loginBtn" />
+        </form>
+    </section>
+    
+    <section class="homeSection">
+        <div class="header center overBg">
+            <h2 class="jsClock"></h2>
+        </div>
+        <div class="header right overBg d-flex">
+            <h2 class="px-1">Hello</h2> <h2 class="px-1" id="userName"></h2>
+        </div>
+       
+
+        <div class="main overBg">
+            <div>
+                <input type="text" id="todoInput" placeholder="TODO..." />
+                <button type="button" class="btn addBtn">Add</button>
+            </div>
+            <ul class="todoList">
+            </ul>
+        </div>
+        
+        
+        <div class="footer overBg">
+            <h4 class="myLocation"></h4>
+            <div class="location">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </section>
+    
+    <script type="text/javascript" src="src/js/index.js"></script>
+    <script type="text/javascript" src="src/js/weather.js"></script>
+    <script type="text/javascript" src="src/js/todo.js"></script>
+    <script type="text/javascript" src="src/js/clock.js"></script>
+    <script type="text/javascript" src="src/js/background.js"></script> 
+</body>
+</html>

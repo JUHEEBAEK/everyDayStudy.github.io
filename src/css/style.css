@@ -1,0 +1,49 @@
+@import "base.css";
+@import "home.css";
+
+body {
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+}
+
+.loginSection {
+    width: 50vh;
+    height: 50vh;
+    margin: 0 auto;
+    background-color: black;
+    opacity: 0.9;
+    border-radius: 12px;
+}
+.formStyle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.loginBtn {
+    height: 40px;
+    padding: 0 16px;
+    font-size: 14px;
+    background-color: skyblue;
+    color: white;
+    border: none;
+    border-radius: 12px;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.addBtn {
+    background-color: red;
+}
